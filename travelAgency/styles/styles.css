@@ -1,0 +1,96 @@
+:root, body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url("../assets/Mochilao_foto1.jpg");
+    background-repeat: no-repeat;
+    background-size: 100vw 100vh;
+    font-family: 'Roboto Slab', serif;
+    font-size: 15px;
+}
+
+body {
+    display: grid;
+    grid-template-columns: 52% 48%;
+}
+
+.form-content {
+    width: 50vw;
+    height: 100vh;
+    display: grid;
+
+}
+
+form {
+    border: 1px solid white;
+    margin: auto;
+    width: 33vw;
+    height: 60vh;
+    display: grid;
+    padding: 20px;
+    grid-template-rows: 30% 70%;
+}
+
+.form-content h1 {
+    color:rgb(252, 249, 249);
+    text-align: center;
+}
+
+.form-content div.inputs {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.form-content div.inputs label {
+    margin: 5px 0;
+
+}
+
+.form-content div.inputs input {
+    margin-bottom: 4px;
+}
+
+.form-content div.inputs button {
+    margin-top: 20px;
+    width: 6vw;
+    height: 3.78vh;
+    margin-left: auto;
+}
+
+.title-content {
+    color: rgb(114, 12, 12);
+    display: grid;
+    grid-gap: 0;
+    grid-template-rows: 25vh 65vh 10vh;
+
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.header img {
+    width: 25vw;
+    height: 18vh;
+} 
+
+.main {
+    padding: 20px;
+    margin-right: 12px;
+    text-align: center;
+}
+
+.main p {
+    margin-bottom: 40px;
+    text-align: justify;
+}
+.footer {
+    color: rgb(255, 255, 255);
+    margin: auto;
+}
+
